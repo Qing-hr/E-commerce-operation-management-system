@@ -101,8 +101,7 @@ const rules ={
       <el-col :span="12" :xs="24">
         <!--登录的表单-->
         <el-form class="login_form" :model="loginForm" :rules="rules" ref="loginForms">
-          <h1>Hello</h1>
-          <h2>欢迎来到硅谷甄选</h2>
+          <h1>Hello 欢迎回来</h1>
           <el-form-item prop="username">
             <el-input v-model="loginForm.username" :prefix-icon="User" />
           </el-form-item>
@@ -137,6 +136,7 @@ const rules ={
     h1 {
       color: white;
       font-size: 40px;
+      margin: 20px;
     }
     h2 {
       color: white;
@@ -149,3 +149,4 @@ const rules ={
   }
 }
 </style>
+
